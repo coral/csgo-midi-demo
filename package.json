@@ -1,0 +1,25 @@
+{
+  "name": "csgo-midi-demo",
+  "version": "1.0.0",
+  "description": "A simple CSGO->MIDI demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "midi",
+    "demo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coral/csgo-midi-demo.git"
+  },
+  "author": "coral",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "rtpmidi": "^0.1.8"
+  }
+}
